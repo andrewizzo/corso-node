@@ -1,0 +1,1 @@
+classico file di testo con ciaotesto aggiunto a ciao.txt
