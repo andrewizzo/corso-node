@@ -1,1 +1,1 @@
-classico file di testo con ciaotesto aggiunto a ciao.txt
+classico file di testo con ciaotesto aggiunto a ciao.txttesto aggiunto a ciao.txt

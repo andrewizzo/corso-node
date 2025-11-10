@@ -14,6 +14,8 @@
     
 // }
 
+// ----------------------------------------------------------------------------------------------------------------------------------
+
 // const saluta = require('../corso-node/moduli/moduli');
 // const nomi = require('../corso-node/moduli/nomi')
 
@@ -22,7 +24,10 @@
 // saluta('Andrea');
 // saluta(nomi.person1);
 
+// ----------------------------------------------------------------------------------------------------------------------------------
+
 // const {readFileSync, writeFileSync} = require('fs');
+// console.log('Comincio');
 
 // const prova = readFileSync('./modulo-fs/prova.txt', 'utf8');
 // const ciao = readFileSync('./modulo-fs/ciao.txt', 'utf8');
@@ -33,6 +38,12 @@
 // console.log(prova);
 // console.log(ciao);
 
+// console.log('Ho finito');
+// console.log('Passo al prossimo compito');
+
+// ----------------------------------------------------------------------------------------------------------------------------------
+
+console.log('Comincio');
 const {readFile, writeFile} = require('fs');
 
 readFile('./modulo-fs/ciao.txt' , 'utf8' , (error,result) => {
@@ -41,13 +52,14 @@ readFile('./modulo-fs/ciao.txt' , 'utf8' , (error,result) => {
         return
     }
     const ciao = result;
-    console.log(ciao);
+
     readFile('./modulo-fs/prova.txt' , 'utf8' , (error,result) => {
         if (error) {
             console.log(error);
             return
         }
         const prova =  result;
-        console.log(prova);
+        console.log('Ho finito');
     })
 })
+console.log('Passo al prossimo compito');
